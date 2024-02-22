@@ -1,4 +1,5 @@
 import UIKit
+import SnapKit
 
 class ViewController: UIViewController {
     
@@ -49,7 +50,12 @@ class ViewController: UIViewController {
     }
     
     private func setupLayout() {
-        
+        firstButton.snp.makeConstraints { make in
+            make.centerX.equalToSuperview()
+            make.centerY.equalToSuperview()
+            make.width.equalTo(200)
+            make.height.equalTo(40)
+        }
     }
     
     // MARK: - Actions

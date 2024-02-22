@@ -54,6 +54,7 @@
 		D72BBC952B874B8B008D5B67 /* NavigationAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				D72BBCBA2B879C89008D5B67 /* Extensions */,
 				D72BBCB72B877AAF008D5B67 /* App */,
 				D72BBCB82B877AB9008D5B67 /* Sources */,
 				D72BBCB92B877AC8008D5B67 /* Resources */,
@@ -86,6 +87,13 @@
 				D72BBCA42B874B8D008D5B67 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		D72BBCBA2B879C89008D5B67 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

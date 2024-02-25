@@ -12,6 +12,15 @@
 		D72BBC9B2B874B8B008D5B67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BBC9A2B874B8B008D5B67 /* ViewController.swift */; };
 		D72BBCA02B874B8D008D5B67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D72BBC9F2B874B8D008D5B67 /* Assets.xcassets */; };
 		D72BBCA32B874B8D008D5B67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72BBCA12B874B8D008D5B67 /* LaunchScreen.storyboard */; };
+		D72BBCBD2B879CD9008D5B67 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D72BBCBC2B879CD9008D5B67 /* SnapKit */; };
+		D72BBCBF2B879CD9008D5B67 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D72BBCBE2B879CD9008D5B67 /* SnapKit-Dynamic */; };
+		D72BBCC12B87A1A8008D5B67 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BBCC02B87A1A8008D5B67 /* SecondViewController.swift */; };
+		D72BBCC32B87A543008D5B67 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BBCC22B87A543008D5B67 /* ThirdViewController.swift */; };
+		D72BBCC52B8893DB008D5B67 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BBCC42B8893DB008D5B67 /* TabBarController.swift */; };
+		D72BBCC82B8894E0008D5B67 /* FirstTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BBCC72B8894E0008D5B67 /* FirstTabBarViewController.swift */; };
+		D72BBCCA2B8894EF008D5B67 /* SecondTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BBCC92B8894EF008D5B67 /* SecondTabBarViewController.swift */; };
+		D72BBCCC2B8894FB008D5B67 /* ThirdTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BBCCB2B8894FB008D5B67 /* ThirdTabBarViewController.swift */; };
+		D72BBCCE2B889509008D5B67 /* FourthTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BBCCD2B889509008D5B67 /* FourthTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,13 @@
 		D72BBC9F2B874B8D008D5B67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D72BBCA22B874B8D008D5B67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D72BBCA42B874B8D008D5B67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D72BBCC02B87A1A8008D5B67 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D72BBCC22B87A543008D5B67 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		D72BBCC42B8893DB008D5B67 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		D72BBCC72B8894E0008D5B67 /* FirstTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabBarViewController.swift; sourceTree = "<group>"; };
+		D72BBCC92B8894EF008D5B67 /* SecondTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabBarViewController.swift; sourceTree = "<group>"; };
+		D72BBCCB2B8894FB008D5B67 /* ThirdTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabBarViewController.swift; sourceTree = "<group>"; };
+		D72BBCCD2B889509008D5B67 /* FourthTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72BBCBD2B879CD9008D5B67 /* SnapKit in Frameworks */,
+				D72BBCBF2B879CD9008D5B67 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +72,8 @@
 		D72BBC952B874B8B008D5B67 /* NavigationAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				D72BBCC62B8894AE008D5B67 /* TabBarControllers */,
+				D72BBCBA2B879C89008D5B67 /* Extensions */,
 				D72BBCB72B877AAF008D5B67 /* App */,
 				D72BBCB82B877AB9008D5B67 /* Sources */,
 				D72BBCB92B877AC8008D5B67 /* Resources */,
@@ -74,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				D72BBC9A2B874B8B008D5B67 /* ViewController.swift */,
+				D72BBCC02B87A1A8008D5B67 /* SecondViewController.swift */,
+				D72BBCC22B87A543008D5B67 /* ThirdViewController.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -86,6 +108,25 @@
 				D72BBCA42B874B8D008D5B67 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		D72BBCBA2B879C89008D5B67 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D72BBCC62B8894AE008D5B67 /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D72BBCC42B8893DB008D5B67 /* TabBarController.swift */,
+				D72BBCC72B8894E0008D5B67 /* FirstTabBarViewController.swift */,
+				D72BBCC92B8894EF008D5B67 /* SecondTabBarViewController.swift */,
+				D72BBCCB2B8894FB008D5B67 /* ThirdTabBarViewController.swift */,
+				D72BBCCD2B889509008D5B67 /* FourthTabBarViewController.swift */,
+			);
+			path = TabBarControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +145,10 @@
 			dependencies = (
 			);
 			name = NavigationAnimation;
+			packageProductDependencies = (
+				D72BBCBC2B879CD9008D5B67 /* SnapKit */,
+				D72BBCBE2B879CD9008D5B67 /* SnapKit-Dynamic */,
+			);
 			productName = NavigationAnimation;
 			productReference = D72BBC932B874B8B008D5B67 /* NavigationAnimation.app */;
 			productType = "com.apple.product-type.application";
@@ -132,6 +177,9 @@
 				Base,
 			);
 			mainGroup = D72BBC8A2B874B8B008D5B67;
+			packageReferences = (
+				D72BBCBB2B879CD9008D5B67 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = D72BBC942B874B8B008D5B67 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -158,8 +206,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72BBCC12B87A1A8008D5B67 /* SecondViewController.swift in Sources */,
 				D72BBC9B2B874B8B008D5B67 /* ViewController.swift in Sources */,
+				D72BBCC32B87A543008D5B67 /* ThirdViewController.swift in Sources */,
+				D72BBCCC2B8894FB008D5B67 /* ThirdTabBarViewController.swift in Sources */,
+				D72BBCC52B8893DB008D5B67 /* TabBarController.swift in Sources */,
+				D72BBCCA2B8894EF008D5B67 /* SecondTabBarViewController.swift in Sources */,
 				D72BBC972B874B8B008D5B67 /* AppDelegate.swift in Sources */,
+				D72BBCC82B8894E0008D5B67 /* FirstTabBarViewController.swift in Sources */,
+				D72BBCCE2B889509008D5B67 /* FourthTabBarViewController.swift in Sources */,
 				D72BBC992B874B8B008D5B67 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,6 +428,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D72BBCBB2B879CD9008D5B67 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D72BBCBC2B879CD9008D5B67 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D72BBCBB2B879CD9008D5B67 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		D72BBCBE2B879CD9008D5B67 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D72BBCBB2B879CD9008D5B67 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D72BBC8B2B874B8B008D5B67 /* Project object */;
 }

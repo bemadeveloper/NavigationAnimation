@@ -1,12 +1,11 @@
+import Foundation
 import UIKit
-import SnapKit
 
-class ViewController: UIViewController {
-    
+class ThirdViewController: UIViewController {
     // MARK: - UI
-    private lazy var firstButton: UIButton = {
+    private lazy var secondButton: UIButton = {
         let button = UIButton()
-        button.setTitle("Facebook", for: .normal)
+        button.setTitle("Tap me!", for: .normal)
         button.setTitleColor(.white, for: .normal)
         
         button.setImage(UIImage(named: "image"), for: .normal)
@@ -38,18 +37,19 @@ class ViewController: UIViewController {
         setupHierarchy()
         setupLayout()
     }
+    
     // MARK: - Setups
     
     private func setupView() {
-        view.backgroundColor = .systemYellow
+        view.backgroundColor = .systemRed
     }
     
     private func setupHierarchy() {
-        view.addSubview(firstButton)
+        view.addSubview(secondButton)
     }
     
     private func setupLayout() {
-        firstButton.snp.makeConstraints { make in
+        secondButton.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
             make.centerY.equalToSuperview()
             make.width.equalTo(200)
@@ -58,10 +58,10 @@ class ViewController: UIViewController {
     }
     
     // MARK: - Actions
+    
     @objc
     private func buttonTapped() {
-        (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeViewController(viewController: SecondViewController(), animated: true, animationOptions: .transitionCrossDissolve)
+        (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeViewController(viewController: SecondViewController(), animated: true, animationOptions: .transitionFlipFromBottom)
         print("Button tapped")
     }
 }
-
